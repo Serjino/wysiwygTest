@@ -7,7 +7,7 @@ header,
 #test-recorder-button,
 #paste-log-button,
 #docs-button,
-.github-corner, .Button__root {
+.github-corner {
     display: none;
 }
 
