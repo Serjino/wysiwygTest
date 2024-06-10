@@ -11,16 +11,13 @@ module.exports = {
 				use: "ts-loader",
 				exclude: /node_modules/,
 			},
-			// {
-			//   test: /\.(css|scss|sass)$/,
-			//   use: ['style-loader', 'css-loader', 'sass-loader'],
-			// },
+
 			{
-				test: /\.s[ac]ss$/i, // для sass и scss файлов
+				test: /\.s[ac]ss$/i,
 				use: ["style-loader", "css-loader", "sass-loader"],
 			},
 			{
-				test: /\.css$/i, // для css файлов
+				test: /\.css$/i,
 				use: ["style-loader", "css-loader"],
 			},
 			{
@@ -42,7 +39,4 @@ module.exports = {
 		static: path.join(__dirname, "dist"),
 		historyApiFallback: true,
 	},
-	// optimization: {
-	// 	runtimeChunk: "single",
-	// },
 };
