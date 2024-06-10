@@ -1,0 +1,13 @@
+.fr-box {
+    // min-height: 200px;
+    // max-height: calc(100% - 300px);
+    // overflow: auto;
+    flex: 1 1 55%;
+    height: calc(100% - 92px);
+
+}
+
+.fr-wrapper {
+    height: 100%;
+    overflow: auto;
+}

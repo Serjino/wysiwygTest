@@ -1,0 +1,30 @@
+.toolbar {
+    min-height: 50px;
+}
+
+header,
+#options-button,
+#test-recorder-button,
+#paste-log-button,
+#docs-button,
+.github-corner, .Button__root {
+    display: none;
+}
+
+.editor, .tree-view-output {
+    max-height: 40vh;
+    overflow: auto;
+}
+
+.ContentEditable__root {
+    position: relative;
+    height: 100%;
+    padding: 16px;
+}
+
+.Placeholder__root {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    pointer-events: none;
+}
