@@ -9,7 +9,7 @@ export function Header() {
 			<FlexWrapper>
 				{/* <Logo /> */}
 				<Typography as="h1" variant={"h1"}>
-					DoMegafon
+					DoMeg
 				</Typography>
 			</FlexWrapper>
 			<Navigation />
